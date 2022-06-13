@@ -5,7 +5,7 @@ root= Tk()
 
 root.title("Calcualtor")
 root.config(bg='black')
-root.iconbitmap('calc.ico')
+root.iconbitmap('calc/calc.ico')
 
 
 e =Entry(root,width=25,justify='right',font='{microsoft sans serif} 15 bold',border=0,highlightbackground='white',fg='white',highlightthickness=3,background='black')
@@ -70,8 +70,8 @@ def equal():
         print('Invalid operation')
 
 #setting up images
-bag=PhotoImage(file='Button.png')
-smallbag=PhotoImage(file='funct.png')
+bag=PhotoImage(file='calc/Button.png')
+smallbag=PhotoImage(file='calc/funct.png')
 
 
 #normal btns
